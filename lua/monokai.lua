@@ -6,7 +6,7 @@ M.classic = {
   name = 'monokai',
   base0 = '#222426',
   base1 = '#272a30',
-  base2 = '#26292C',
+  base2 = '#000000',
   base3 = '#2E323C',
   base4 = '#333842',
   base5 = '#4d5154',
@@ -163,7 +163,7 @@ M.load_syntax = function(palette)
       bg = palette.base3,
     },
     CursorLine = {
-      bg = palette.base3,
+      bg = palette.base2,
     },
     NonText = { -- used for "eol", "extends" and "precedes" in listchars
       fg = palette.base5,
@@ -319,7 +319,6 @@ M.load_syntax = function(palette)
     },
     Function = {
       fg = palette.green,
-      style = 'italic',
     },
     Statement = {
       fg = palette.pink,
@@ -332,7 +331,6 @@ M.load_syntax = function(palette)
     },
     Keyword = {
       fg = palette.pink,
-      style = 'italic',
     },
     PreProc = {
       fg = palette.green,
@@ -360,7 +358,6 @@ M.load_syntax = function(palette)
     },
     SpecialComment = {
       fg = palette.grey,
-      style = 'italic',
     },
     Tag = {
       fg = palette.orange,
@@ -370,7 +367,6 @@ M.load_syntax = function(palette)
     },
     Comment = {
       fg = palette.base6,
-      style = 'italic',
     },
     Underlined = {
       style = 'underline',
@@ -453,7 +449,6 @@ M.load_plugin_syntax = function(palette)
     },
     TSComment = {
       fg = palette.base6,
-      style = 'italic',
     },
     TSConstant = {
       fg = palette.aqua,
@@ -475,22 +470,18 @@ M.load_plugin_syntax = function(palette)
     },
     TSFunction = {
       fg = palette.green,
-      style = 'italic',
     },
     TSFuncBuiltin = {
       fg = palette.aqua,
     },
     TSFuncMacro = {
       fg = palette.green,
-      style = 'italic',
     },
     TSKeyword = {
       fg = palette.pink,
-      style = 'italic',
     },
     TSKeywordFunction = {
       fg = palette.pink,
-      style = 'italic',
     },
     TSKeywordOperator = {
       fg = palette.pink,
