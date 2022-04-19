@@ -17,12 +17,12 @@ Neovim >= 0.5.
 ## Installation
 | Plugin Manager                                       | Command                                                                              |
 |------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [Packer](https://github.com/wbthomason/packer.nvim)  | `use 'tanvirtin/monokai.nvim'`                                                       |
-| [Vim-plug](https://github.com/junegunn/vim-plug)     | `Plug 'tanvirtin/monokai.nvim'`                                                      |
-| [NeoBundle](https://github.com/Shougo/neobundle.vim) | `NeoBundle 'tanvirtin/monokai.nvim'`                                                 |
-| [Vundle](https://github.com/VundleVim/Vundle.vim)    | `Bundle 'tanvirtin/monokai.nvim'`                                                    |
-| [Pathogen](https://github.com/tpope/vim-pathogen)    | `git clone https://github.com/tanvirtin/monokai.nvim.git ~/.vim/bundle/monokai.nvim` |
-| [Dein](https://github.com/Shougo/dein.vim)           | `call dein#add('tanvirtin/monokai.nvim')`                                            |
+| [Packer](https://github.com/wbthomason/packer.nvim)  | `use 'adaliaramon/monokai.nvim'`                                                       |
+| [Vim-plug](https://github.com/junegunn/vim-plug)     | `Plug 'adaliaramon/monokai.nvim'`                                                      |
+| [NeoBundle](https://github.com/Shougo/neobundle.vim) | `NeoBundle 'adaliaramon/monokai.nvim'`                                                 |
+| [Vundle](https://github.com/VundleVim/Vundle.vim)    | `Bundle 'adaliaramon/monokai.nvim'`                                                    |
+| [Pathogen](https://github.com/tpope/vim-pathogen)    | `git clone https://github.com/adaliaramon/monokai.nvim.git ~/.vim/bundle/monokai.nvim` |
+| [Dein](https://github.com/Shougo/dein.vim)           | `call dein#add('adaliaramon/monokai.nvim')`                                            |
 
 ## Usage
 
