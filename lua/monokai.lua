@@ -620,7 +620,7 @@ M.load_plugin_syntax = function(palette)
     },
     TelescopeNormal = {
       fg = palette.base8,
-      bg = palette.base0,
+      bg = palette.black,
     },
     TelescopeSelection = {
       fg = palette.white,
